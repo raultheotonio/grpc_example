@@ -4,6 +4,21 @@ Para o estudo está sendo utilizado dois projeto em que o projeto api_koa, é um
 e o projeto grpc-api-rola, é uma api simples em gRPC. No qual, os dois irão se comunicar no protocolo
 gRPC.
 
-As tecnologias utilizada são:
-    * [ KOA ]
-    * [ gRPC ]
+## Principais Tecnologias
+
+```bash
+    npm i koa
+    npm i grpc
+```
+
+## Instalação
+
+```bash
+    npm install
+    npm run start
+```
+
+## Referencias
+
+[GRPC](https://grpc.io/)
+[KOA](https://koajs.com/)
