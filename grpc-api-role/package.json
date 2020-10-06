@@ -1,0 +1,30 @@
+{
+  "name": "grpc-api-role",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon ./app/grpc/boot.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.1.0",
+    "async": "^1.5.2",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-eslint": "8.2.3",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "babel-runtime": "6.26.0",
+    "google-protobuf": "^3.0.0",
+    "grpc": "^1.11.0",
+    "lodash": "^4.6.1",
+    "minimist": "^1.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

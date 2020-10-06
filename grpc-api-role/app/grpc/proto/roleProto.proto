@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package roleMessage;
+
+
+message RoleRquest {
+    int32 idUser = 1;
+}
+
+message RoleResponse {
+
+    RoleDetails message = 1;
+
+}
+
+message RoleDetails {
+
+    int32 idRole = 1;
+    int32 idUser= 2;
+    string desc = 3;
+    
+}
+
+service RoleService {
+    
+    rpc findOne (RoleRquest) returns (RoleResponse);
+
+}
